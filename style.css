@@ -523,6 +523,10 @@ ul.certifications {
     outline: none;
 }
 
+.field-wrap input::placeholder, .field-wrap textarea::placeholder {
+    color: var(--gray-200);
+}
+
 .form-button {
     text-align: center;
 }
