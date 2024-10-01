@@ -122,6 +122,10 @@
     .contact-image {
         display: block;
     }
+    
+    .contact-image img {
+        width: unset;
+    }
 
     .contact-container {
         grid-template-columns: repeat(2, 1fr);

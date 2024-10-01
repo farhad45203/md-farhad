@@ -28,6 +28,7 @@ a:hover, a.body-two:hover {
     transition: .3s ease-in-out all;
 }
 
+
 i {
     height: 24px;
     width: 24px;
@@ -524,6 +525,10 @@ ul.certifications {
 
 .form-button {
     text-align: center;
+}
+
+.form-button a {
+    cursor: pointer;
 }
 
 .contact-form .button-primary {
