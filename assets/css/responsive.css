@@ -1,0 +1,232 @@
+
+
+
+@media (min-width: 576px) {
+
+    /* comon styles */
+
+    .container {
+        max-width: 540px;
+    }
+
+}
+
+@media (min-width: 768px) {
+    
+    /* comon styles */
+
+    .container {
+        max-width: 720px;
+    }
+
+    /* header area */
+
+    .header-area {
+        display: block;
+    }
+
+    header.mobile-header {
+        display: none;
+    }
+    
+    header.main-menu {
+        display: flex;
+    }
+
+    .mobile-popup {
+        display: none;
+    }
+
+    /* banner area */
+
+    .banner-area { 
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .banner-image {
+        justify-content: end;
+    }
+
+    .banner-image .overlay {
+        width: 200px;
+        height: 200px;
+    }
+
+    .banner-image .overlay img.main {
+        right: 20px;
+        width: 200px;
+        transform: unset;
+    }
+
+    /* about area */
+
+
+    .about-image .overlay {
+        width: 320px;
+        height: 330px;
+    }
+    
+    .about-image .overlay img.main {
+        bottom: 20px;
+        width: 255px;
+    }
+
+    /* experiance area */
+
+    .company-info {
+        flex-direction: row;
+        gap: 48px;
+    }
+
+    .single-experience {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    /* work area */
+
+    .single-project {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .project-details {
+        grid-column: span 2;
+    }
+
+    /* testimonial area */
+
+    .single-testimonial {
+        padding: 48px;
+    }
+
+    /* contact area */
+
+    .contact-container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .contact-image {
+        display: block;
+    }
+
+    .contact-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
+    }
+
+    /* footer area */
+
+    .footer-content {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .footer-main {
+        grid-column: span 2;
+    }
+
+}
+
+
+@media (min-width: 992px) {
+    
+    /* comon styles */
+
+    .container {
+        max-width: 960px;
+    }
+    
+    /* banner area */
+
+    .banner-image .overlay {
+        width: 280px;
+        height: 300px;
+    }
+
+    .banner-image .overlay img.main {
+        right: 40px;
+        bottom: 40px;
+        width: 280px;
+    }
+    
+    /* about area */
+
+    .about-image .overlay {
+        width: 330px;
+        height: 420px;
+    }
+    
+    .about-image .overlay img.main {
+        right: 40px;
+        bottom: 40px;
+        width: 330px;
+    }
+
+    .about-container {  
+        display: grid;
+        gap: 48px;
+        grid-column: span 2;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .about-image {
+        justify-self: end;
+    }
+
+    .about-image .overlay img.main {
+        transform: unset;
+    }
+
+    /* experiance area */
+
+    .single-experience {
+        gap: 48px;
+        padding: 48px;
+    }
+
+    /* work area */
+    .project-image {
+        padding: 48px;
+    }
+
+    .project-details {
+        padding: 48px;
+    }
+
+    /* testimonials area */
+
+    .testimonials {
+        display: grid;
+        gap: 48px;
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    /* footer area */
+
+    .footer-content {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+    
+    /* comon styles */
+    
+    .container {
+        max-width: 1140px;;
+    }
+
+    ul.certifications {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (min-width: 1400px) {
+    
+    /* comon styles */
+
+    .container {
+        max-width: 1320px;
+    }
+
+}
