@@ -23,6 +23,11 @@ ul {
     list-style: none;
 }
 
+a:hover, a.body-two:hover {
+    transform: translateY(-8px);
+    transition: .3s ease-in-out all;
+}
+
 i {
     height: 24px;
     width: 24px;
@@ -71,9 +76,13 @@ i {
 /* header area start */
 
 .header-area {
-    background-color: var(--gray);
     padding: 16px 0;
     overflow: hidden;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    backdrop-filter: blur(8px);
+    border-bottom: 1px solid var(--gray-100);
 }
 
 header.main-menu {
@@ -158,7 +167,7 @@ span.divider {
 
 .hero-area {
     background-color: var(--gray);
-    padding: 100px 0;
+    padding: 170px 0 100px;
 }
 
 .banner-area {
@@ -293,10 +302,15 @@ ul.certifications {
     text-align: center;
 }
 
+.single-expertics img {
+    max-width: 50px;
+}
+
 .expertics-details {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 80px;
+    align-items: end;
 }
 
 /* experties area start */
@@ -318,6 +332,10 @@ ul.certifications {
 
 .single-expertics img {
     margin-bottom: 8px;
+}
+
+.tablet {
+    display: none;
 }
 
 /* experience area start */
@@ -400,6 +418,16 @@ ul.certifications {
     margin: unset;
 }
 
+.project-buttons {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.project-link {
+    display: grid;
+}
+
 /* experience area start */
 
 /* experience area start */
@@ -470,8 +498,6 @@ ul.certifications {
 
 .from-top {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 48px;
 }
 
 .field-wrap {
