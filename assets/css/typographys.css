@@ -20,12 +20,7 @@ h1 {
     line-height: 40px;
     font-weight: 700;
     margin-bottom: 8px;
-    background: linear-gradient(90deg, rgba(226,85,68,1) 0%, rgba(98,12,144,1) 100%);
-    background: linear-gradient(90deg, rgba(238,248,35,1) 0%, rgba(44,237,144,1) 100%);
-    background: linear-gradient(90deg, rgba(100,24,160,1) 0%, rgba(197,25,87,1) 100%);
-    background: linear-gradient(90deg, rgba(215,110,35,1) 0%, rgba(112,221,26,1) 48%, rgba(219,255,0,1) 100%);
-    background: radial-gradient(circle, rgba(222,32,32,1) 0%, rgba(222,120,25,1) 48%, rgba(182,88,20,1) 100%);
-    background: linear-gradient(90deg, rgba(21,228,166,1) 0%, rgba(28,140,220,1) 100%);
+    background: var(--banner-h1);
     background-clip: text;
     color: transparent;
 }
