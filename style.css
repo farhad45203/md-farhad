@@ -24,7 +24,7 @@ ul {
 }
 
 a:hover, a.body-two:hover {
-    transform: translateY(-8px);
+    transform: translateY(-4px);
     transition: .3s ease-in-out all;
 }
 
@@ -63,6 +63,7 @@ i {
     padding: 6px 16px;
     border-radius: 12px;
     display: inline-block;
+    box-shadow: var(--box-shadow-md);
 }
 
 .button-primary:hover {
@@ -166,6 +167,8 @@ span.divider {
 
 /* header area end */
 
+/* banner area start */
+
 .hero-area {
     background-color: var(--gray);
     padding: 170px 0 100px;
@@ -189,6 +192,10 @@ span.divider {
     gap: 8px;
     margin-left: 35px;
     list-style-position: outside;
+}
+
+span.waving {
+    color: var(--gray-900);
 }
 
 .banner-info .location {
@@ -234,7 +241,7 @@ span.divider {
     border: 8px solid var(--gray);
 }
 
-/* header area end */
+/* banner area end */
 
 /* about area start */
 
@@ -329,6 +336,7 @@ ul.certifications {
     background-color: var(--gray-100);
     padding: 24px;
     border-radius: 12px;
+    box-shadow: var(--box-shadow-md);
 }
 
 .single-expertics img {
@@ -338,10 +346,6 @@ ul.certifications {
 .tablet {
     display: none;
 }
-
-/* experience area start */
-
-/* experience area start */
 
 .experience-area {
     background-color: var(--gray-50);
@@ -375,9 +379,9 @@ ul.certifications {
     color: var(--gray-600);
 }
 
-/* experience area start */
+/* experience area end */
 
-/* experience area start */
+/* work area start */
 
 .work-area {
     background-color: var(--gray);
@@ -389,6 +393,7 @@ ul.certifications {
     background-color: var(--gray-100);
     border-radius: 12px;
     overflow: hidden;
+    box-shadow: var(--box-shadow-md);
 }
 
 .project-image {
@@ -419,6 +424,11 @@ ul.certifications {
     margin: unset;
 }
 
+.uses.tag .body-three:hover {
+    transform: translateY(-4px);
+    transition: .3s ease-in-out all;
+}
+
 .project-buttons {
     display: flex;
     align-items: center;
@@ -429,9 +439,9 @@ ul.certifications {
     display: grid;
 }
 
-/* experience area start */
+/* work area end */
 
-/* experience area start */
+/* testimonial area start */
 
 .testimonial-area {
     background-color: var(--gray-50);
@@ -450,6 +460,7 @@ ul.certifications {
     border-radius: 12px;
     text-align: center;
     background-color: var(--gray-100);
+    box-shadow: var(--box-shadow-md);
 }
 
 .testimonial-auth {
@@ -470,7 +481,7 @@ ul.certifications {
     text-align: left;
 }
 
-/* experience area start */
+/* testimonial area end */
 
 /* contact area start */
 
@@ -517,6 +528,7 @@ ul.certifications {
     border: none;
     border-radius: 12px;
     font-size: 16px;
+    box-shadow: var(--input-shadow);
 }
 
 .field-wrap input:focus, .field-wrap textarea:focus {
@@ -539,7 +551,7 @@ ul.certifications {
     display: inline-block;
 }
 
-/* contact area start */
+/* contact area end */
 
 /* footer area start */
 

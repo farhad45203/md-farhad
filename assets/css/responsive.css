@@ -9,6 +9,8 @@
         max-width: 540px;
     }
 
+    /* expertics area styles */
+
     .expertics-details {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(125px, 1fr));
@@ -25,7 +27,7 @@
         max-width: 720px;
     }
 
-    /* header area */
+    /* header area styles */
 
     .header-area {
         display: block;
@@ -43,7 +45,7 @@
         display: none;
     }
 
-    /* banner area */
+    /* banner area styles */
 
     .banner-area { 
         display: grid;
@@ -65,7 +67,7 @@
         transform: unset;
     }
 
-    /* about area */
+    /* about area styles */
 
 
     .about-image .overlay {
@@ -78,7 +80,7 @@
         width: 255px;
     }
 
-    /* experiance area */
+    /* experiance area styles */
 
     .company-info {
         flex-direction: row;
@@ -87,12 +89,14 @@
 
     .single-experience {
         grid-template-columns: repeat(3, 1fr);
+        box-shadow: var(--box-shadow-md);
     }
 
-    /* work area */
+    /* work area styles */
 
     .single-project {
         grid-template-columns: repeat(3, 1fr);
+        box-shadow: var(--box-shadow-md);
     }
 
     .project-details {
@@ -107,13 +111,14 @@
         display: none;
     }
 
-    /* testimonial area */
+    /* testimonial area styles */
 
     .single-testimonial {
         padding: 48px;
+        box-shadow: var(--box-shadow-md);
     }
 
-    /* contact area */
+    /* contact area styles */
 
     .contact-container {
         grid-template-columns: repeat(2, 1fr);
@@ -137,7 +142,7 @@
         gap: 48px;
     }
 
-    /* footer area */
+    /* footer area styles */
 
     .footer-content {
         grid-template-columns: repeat(2, 1fr);
@@ -158,7 +163,7 @@
         max-width: 960px;
     }
     
-    /* banner area */
+    /* banner area styles */
 
     .banner-image .overlay {
         width: 280px;
@@ -171,7 +176,7 @@
         width: 280px;
     }
     
-    /* about area */
+    /* about area styles */
 
     .about-image .overlay {
         width: 330px;
@@ -201,22 +206,24 @@
         right: unset;
     }
 
-    /* experiance area */
+    /* experiance area styles */
 
     .single-experience {
         gap: 48px;
         padding: 48px;
+        box-shadow: var(--box-shadow-lg);
     }
     
     .single-project {
         grid-template-columns: repeat(2, 1fr);
+        box-shadow: var(--box-shadow-lg);
     }
     
     .project-details {
         grid-column: unset;
     }
 
-    /* work area */
+    /* work area styles */
 
     .project-image {
         padding: 48px;
@@ -234,15 +241,19 @@
         display: block;
     }
 
-    /* testimonials area */
+    /* testimonials area styles */
 
     .testimonials {
         display: grid;
         gap: 48px;
         grid-template-columns: repeat(3, 1fr);
     }
+
+    .single-testimonial {
+        box-shadow: var(--box-shadow-lg);
+    }
     
-    /* footer area */
+    /* footer area styles */
 
     .footer-content {
         grid-template-columns: repeat(4, 1fr);
@@ -258,8 +269,16 @@
         max-width: 1140px;;
     }
 
+    /* about area styles */
+
     ul.certifications {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* box shadow for single single experience, project and testimonial */
+
+    .single-experience,.single-project ,.single-testimonial {
+        box-shadow: var(--box-shadow-2xl);
     }
 }
 
