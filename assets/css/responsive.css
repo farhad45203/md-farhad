@@ -120,21 +120,9 @@
 
     /* contact area styles */
 
-    .contact-container {
-        grid-template-columns: repeat(2, 1fr);
-    }
-
     .contact-image {
         display: block;
-    }
-    
-    .contact-image img {
-        width: unset;
-    }
-
-    .contact-container {
-        grid-template-columns: repeat(2, 1fr);
-        gap: 48px;
+        text-align: center;
     }
 
     .from-top {
@@ -251,6 +239,13 @@
 
     .single-testimonial {
         box-shadow: var(--box-shadow-lg);
+    }
+
+    /* contact area styles */
+
+    .contact-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 48px;
     }
     
     /* footer area styles */

@@ -79,7 +79,6 @@ i {
 
 .header-area {
     padding: 16px 0;
-    overflow: hidden;
     position: fixed;
     width: 100%;
     z-index: 99;
@@ -500,7 +499,7 @@ ul.certifications {
 }
 
 .contact-image img {
-    width: 100%;
+    width: 90%;
 }
 
 .contact-container {
