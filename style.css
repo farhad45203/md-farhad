@@ -528,6 +528,7 @@ ul.certifications {
     border-radius: 12px;
     font-size: 16px;
     box-shadow: var(--input-shadow);
+    resize: none;
 }
 
 .field-wrap input:focus, .field-wrap textarea:focus {
