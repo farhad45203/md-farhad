@@ -1,120 +1,114 @@
 /* for root variables */
 @import url(./variables.css);
 
-
 /* typographys */
 
 a {
-    color: unset;
+  color: unset;
 }
 
-*, h1, h2, h4, h6, p, a {
-    margin: 0;
-    padding: 0;
-    font-family: "Inter", sans-serif;
-    text-decoration: none;
+*,
+h1,
+h2,
+h4,
+h6,
+p,
+a {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter", sans-serif;
+  text-decoration: none;
 }
 
 h1 {
-    font-size: 36px;
-    line-height: 40px;
-    font-weight: 700;
-    margin-bottom: 8px;
-    background: var(--banner-h1);
-    background-clip: text;
-    color: transparent;
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  background: var(--banner-h1);
+  background-clip: text;
+  color: transparent;
 }
 
 h2 {
-    font-size: 18px;
-    line-height: 28px;
-    letter-spacing: 2px;
-    font-weight: 700;
-}
-
-h3 {
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: 2px;
-    color: var(--gray-900);
+  font-size: 24px;
+  line-height: 32px;
+  letter-spacing: 2px;
+  color: var(--gray-900);
 }
 
 .subtitle {
-    font-size: 18px;
-    line-height: 28px;
-    color: var(--gray-600);
+  font-size: 18px;
+  line-height: 28px;
+  color: var(--gray-600);
 }
 
 .body-one {
-    font-size: 16px;
-    line-height: 24px;
-    font-weight: 400;
-    color: var(--gray-600);
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--gray-600);
 }
 
 .body-two {
-    font-size: 16px;
-    line-height: 24px;
-    color: var(--gray-600);
+  font-size: 16px;
+  line-height: 24px;
+  color: var(--gray-600);
 }
 
 nav a.body-two:hover {
-    background: var(--nav-hover);
-    background-clip: text;
-    color: transparent;
+  background: var(--nav-hover);
+  background-clip: text;
+  color: transparent;
 }
 
 .body-three {
-    font-size: 14px;
-    line-height: 20px;
-    color: var(--gray-600);
+  font-size: 14px;
+  line-height: 20px;
+  color: var(--gray-600);
 }
 
 @media (min-width: 768px) {
+  h1 {
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 2px;
+  }
 
-    h1 {
-        font-size: 48px;
-        line-height: 48px;
-        letter-spacing: 2px;
-    }
-    
-    h2 {
-        font-size: 36px;
-        line-height: 40px;
-        letter-spacing: 2px;
-    }
+  h2 {
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 2px;
+  }
 
-    h3 {
-        font-size: 30px;
-        line-height: 36px;
-        letter-spacing: 2px;
-    }
+  h4 {
+    font-size: 30px;
+    line-height: 36px;
+    letter-spacing: 2px;
+  }
 
-    .subtitle {
-        font-size: 20px;
-        line-height: 28px;
-        font-weight: 700;
-    }
+  .subtitle {
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 700;
+  }
 
-    .body-one {
-        font-size: 18px;
-        line-height: 28px;
-        font-weight: 400;
-    }
-
+  .body-one {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 400;
+  }
 }
 
 @media (min-width: 992px) {
+  h1 {
+    font-size: 60px;
+    line-height: 72px;
+    letter-spacing: 2px;
+    font-weight: 600;
+  }
 
-    h1 {
-        font-size: 60px;
-        line-height: 72px;
-        letter-spacing: 2px;
-        font-weight: 600;
-    }
-
-    .tag {
-        width: 50%;
-    }
-
+  .tag {
+    width: 50%;
+  }
 }
